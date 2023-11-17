@@ -9,7 +9,6 @@ import Counter from "./component/Counter.jsx";
 
 let numRegresivo = document.querySelector("#cuentaRegresiva").value;
 
-
 if (numRegresivo == "") {
     let a = 0;
 setInterval(() => {
