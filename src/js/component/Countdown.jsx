@@ -1,9 +1,8 @@
 import React from "react";
 import PropType from "prop-types";
 
-
-const Counter = (props) =>{
-    return(
+const Countdown = (props) => {
+    return (
         <div className="bigDiv d-flex justify-content-center pt-1">
             <div className="casilla text-white m-1 rounded" ><i class="fa-solid fa-clock"></i></div>
             <div className="casilla text-white m-1 rounded">{props.digito6}</div>
@@ -26,4 +25,3 @@ Counter.propTypes = {
 }
 
 export default Counter;
-

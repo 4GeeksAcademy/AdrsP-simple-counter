@@ -10,3 +10,16 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.bigDiv {
+    height: 80px;
+    background-color: #101010;
+}
+
+.casilla{
+    background-color: #232323;
+    height: 60px;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+}
